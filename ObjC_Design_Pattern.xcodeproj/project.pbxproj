@@ -13,6 +13,7 @@
 		531CCDC6199F638500F5E78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531CCDC4199F638500F5E78B /* Main.storyboard */; };
 		531CCDC8199F638500F5E78B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531CCDC7199F638500F5E78B /* Images.xcassets */; };
 		531CCDD4199F638600F5E78B /* ObjC_Design_PatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CCDD3199F638600F5E78B /* ObjC_Design_PatternTests.m */; };
+		531CCDDF199F81C900F5E78B /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CCDDE199F81C900F5E78B /* Vertex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,9 @@
 		531CCDCD199F638600F5E78B /* ObjC_Design_PatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjC_Design_PatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		531CCDD2199F638600F5E78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		531CCDD3199F638600F5E78B /* ObjC_Design_PatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjC_Design_PatternTests.m; sourceTree = "<group>"; };
+		531CCDDD199F81C900F5E78B /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		531CCDDE199F81C900F5E78B /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		531CCDE0199F831600F5E78B /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,9 @@
 				531CCDBF199F638500F5E78B /* AppDelegate.m */,
 				531CCDC1199F638500F5E78B /* ViewController.h */,
 				531CCDC2199F638500F5E78B /* ViewController.m */,
+				531CCDDD199F81C900F5E78B /* Vertex.h */,
+				531CCDDE199F81C900F5E78B /* Vertex.m */,
+				531CCDE0199F831600F5E78B /* Mark.h */,
 				531CCDC4199F638500F5E78B /* Main.storyboard */,
 				531CCDC7199F638500F5E78B /* Images.xcassets */,
 				531CCDBA199F638500F5E78B /* Supporting Files */,
@@ -216,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				531CCDC3199F638500F5E78B /* ViewController.m in Sources */,
+				531CCDDF199F81C900F5E78B /* Vertex.m in Sources */,
 				531CCDC0199F638500F5E78B /* AppDelegate.m in Sources */,
 				531CCDBD199F638500F5E78B /* main.m in Sources */,
 			);
@@ -404,6 +412,7 @@
 				531CCDD9199F638600F5E78B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		531CCDDA199F638600F5E78B /* Build configuration list for PBXNativeTarget "ObjC_Design_PatternTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +421,7 @@
 				531CCDDC199F638600F5E78B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
