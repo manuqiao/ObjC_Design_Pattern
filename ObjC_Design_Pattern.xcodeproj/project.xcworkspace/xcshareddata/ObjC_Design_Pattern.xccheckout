@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ACC6202F-7594-45A7-8D36-E5E78350E9AC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ObjC_Design_Pattern</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4F165E0E12F76770F6769160BBA792EC6A8F57EE</key>
+		<string>https://github.com/manuqiao/ObjC_Design_Pattern.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ObjC_Design_Pattern.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4F165E0E12F76770F6769160BBA792EC6A8F57EE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/manuqiao/ObjC_Design_Pattern.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4F165E0E12F76770F6769160BBA792EC6A8F57EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4F165E0E12F76770F6769160BBA792EC6A8F57EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ObjC_Design_Pattern</string>
+		</dict>
+	</array>
+</dict>
+</plist>
