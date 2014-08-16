@@ -15,6 +15,7 @@
 		531CCDD4199F638600F5E78B /* ObjC_Design_PatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CCDD3199F638600F5E78B /* ObjC_Design_PatternTests.m */; };
 		531CCDDF199F81C900F5E78B /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CCDDE199F81C900F5E78B /* Vertex.m */; };
 		531CCDE3199F859D00F5E78B /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CCDE2199F859D00F5E78B /* Dot.m */; };
+		531CCDE6199F872600F5E78B /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CCDE5199F872600F5E78B /* Stroke.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		531CCDE0199F831600F5E78B /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
 		531CCDE1199F859D00F5E78B /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
 		531CCDE2199F859D00F5E78B /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		531CCDE4199F872600F5E78B /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		531CCDE5199F872600F5E78B /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				531CCDDE199F81C900F5E78B /* Vertex.m */,
 				531CCDE1199F859D00F5E78B /* Dot.h */,
 				531CCDE2199F859D00F5E78B /* Dot.m */,
+				531CCDE4199F872600F5E78B /* Stroke.h */,
+				531CCDE5199F872600F5E78B /* Stroke.m */,
 				531CCDE0199F831600F5E78B /* Mark.h */,
 				531CCDC4199F638500F5E78B /* Main.storyboard */,
 				531CCDC7199F638500F5E78B /* Images.xcassets */,
@@ -232,6 +237,7 @@
 				531CCDC0199F638500F5E78B /* AppDelegate.m in Sources */,
 				531CCDE3199F859D00F5E78B /* Dot.m in Sources */,
 				531CCDBD199F638500F5E78B /* main.m in Sources */,
+				531CCDE6199F872600F5E78B /* Stroke.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
