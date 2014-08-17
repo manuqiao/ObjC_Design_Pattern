@@ -13,7 +13,7 @@
 
 - (CanvasView *)canvasViewWithFrame:(CGRect)aFrame
 {
-    return [[[CanvasView alloc] initWithFrame:aFrame] autorelease`];
+    return [[[CanvasView alloc] initWithFrame:aFrame] autorelease];
 }
 
 @end
