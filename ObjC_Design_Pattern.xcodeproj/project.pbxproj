@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5313921119A06ED4003D0F78 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313921019A06ED4003D0F78 /* CanvasView.m */; };
+		5313921419A06EE2003D0F78 /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313921319A06EE2003D0F78 /* PaperCanvasView.m */; };
+		5313921719A06F6B003D0F78 /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313921619A06F6B003D0F78 /* ClothCanvasView.m */; };
+		5313921A19A06F9E003D0F78 /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313921919A06F9E003D0F78 /* CanvasViewGenerator.m */; };
+		5313921D19A0707A003D0F78 /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313921C19A0707A003D0F78 /* PaperCanvasViewGenerator.m */; };
+		5313922019A071C1003D0F78 /* ClothCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313921F19A071C1003D0F78 /* ClothCanvasViewGenerator.m */; };
+		5313922319A0746F003D0F78 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313922219A0746F003D0F78 /* CanvasViewController.m */; };
+		5313922619A085F2003D0F78 /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313922519A085F2003D0F78 /* BrandingFactory.m */; };
+		5313922919A0864D003D0F78 /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313922819A0864D003D0F78 /* AcmeBrandingFactory.m */; };
+		5313922C19A0A0AA003D0F78 /* AcmeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313922B19A0A0AA003D0F78 /* AcmeView.m */; };
+		5313922F19A0A0BA003D0F78 /* AcmeMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313922E19A0A0BA003D0F78 /* AcmeMainButton.m */; };
+		5313923219A0A0C9003D0F78 /* AcmeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313923119A0A0C9003D0F78 /* AcmeToolbar.m */; };
+		5313923619A0A1FC003D0F78 /* SierraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313923519A0A1FC003D0F78 /* SierraView.m */; };
+		5313923919A0A207003D0F78 /* SierraMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313923819A0A207003D0F78 /* SierraMainButton.m */; };
+		5313923C19A0A21A003D0F78 /* SierraToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313923B19A0A21A003D0F78 /* SierraToolbar.m */; };
+		5313923F19A0A237003D0F78 /* SierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313923E19A0A237003D0F78 /* SierraBrandingFactory.m */; };
 		531CCDBD199F638500F5E78B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CCDBC199F638500F5E78B /* main.m */; };
 		531CCDC0199F638500F5E78B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CCDBF199F638500F5E78B /* AppDelegate.m */; };
 		531CCDC3199F638500F5E78B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 531CCDC2199F638500F5E78B /* ViewController.m */; };
@@ -29,6 +45,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5313920F19A06ED4003D0F78 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		5313921019A06ED4003D0F78 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		5313921219A06EE2003D0F78 /* PaperCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
+		5313921319A06EE2003D0F78 /* PaperCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasView.m; sourceTree = "<group>"; };
+		5313921519A06F6B003D0F78 /* ClothCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
+		5313921619A06F6B003D0F78 /* ClothCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
+		5313921819A06F9E003D0F78 /* CanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
+		5313921919A06F9E003D0F78 /* CanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		5313921B19A0707A003D0F78 /* PaperCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasViewGenerator.h; sourceTree = "<group>"; };
+		5313921C19A0707A003D0F78 /* PaperCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasViewGenerator.m; sourceTree = "<group>"; };
+		5313921E19A071C1003D0F78 /* ClothCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasViewGenerator.h; sourceTree = "<group>"; };
+		5313921F19A071C1003D0F78 /* ClothCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenerator.m; sourceTree = "<group>"; };
+		5313922119A0746F003D0F78 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		5313922219A0746F003D0F78 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		5313922419A085F2003D0F78 /* BrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
+		5313922519A085F2003D0F78 /* BrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
+		5313922719A0864D003D0F78 /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
+		5313922819A0864D003D0F78 /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
+		5313922A19A0A0AA003D0F78 /* AcmeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeView.h; sourceTree = "<group>"; };
+		5313922B19A0A0AA003D0F78 /* AcmeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeView.m; sourceTree = "<group>"; };
+		5313922D19A0A0BA003D0F78 /* AcmeMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeMainButton.h; sourceTree = "<group>"; };
+		5313922E19A0A0BA003D0F78 /* AcmeMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeMainButton.m; sourceTree = "<group>"; };
+		5313923019A0A0C9003D0F78 /* AcmeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeToolbar.h; sourceTree = "<group>"; };
+		5313923119A0A0C9003D0F78 /* AcmeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeToolbar.m; sourceTree = "<group>"; };
+		5313923419A0A1FC003D0F78 /* SierraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraView.h; sourceTree = "<group>"; };
+		5313923519A0A1FC003D0F78 /* SierraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraView.m; sourceTree = "<group>"; };
+		5313923719A0A207003D0F78 /* SierraMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraMainButton.h; sourceTree = "<group>"; };
+		5313923819A0A207003D0F78 /* SierraMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraMainButton.m; sourceTree = "<group>"; };
+		5313923A19A0A21A003D0F78 /* SierraToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraToolbar.h; sourceTree = "<group>"; };
+		5313923B19A0A21A003D0F78 /* SierraToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraToolbar.m; sourceTree = "<group>"; };
+		5313923D19A0A237003D0F78 /* SierraBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory.h; sourceTree = "<group>"; };
+		5313923E19A0A237003D0F78 /* SierraBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory.m; sourceTree = "<group>"; };
 		531CCDB7199F638500F5E78B /* ObjC_Design_Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjC_Design_Pattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		531CCDBB199F638500F5E78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		531CCDBC199F638500F5E78B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +116,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5313923319A0A1E4003D0F78 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				5313920F19A06ED4003D0F78 /* CanvasView.h */,
+				5313921019A06ED4003D0F78 /* CanvasView.m */,
+				5313921219A06EE2003D0F78 /* PaperCanvasView.h */,
+				5313921319A06EE2003D0F78 /* PaperCanvasView.m */,
+				5313921519A06F6B003D0F78 /* ClothCanvasView.h */,
+				5313921619A06F6B003D0F78 /* ClothCanvasView.m */,
+				5313921819A06F9E003D0F78 /* CanvasViewGenerator.h */,
+				5313921919A06F9E003D0F78 /* CanvasViewGenerator.m */,
+				5313921B19A0707A003D0F78 /* PaperCanvasViewGenerator.h */,
+				5313921C19A0707A003D0F78 /* PaperCanvasViewGenerator.m */,
+				5313921E19A071C1003D0F78 /* ClothCanvasViewGenerator.h */,
+				5313921F19A071C1003D0F78 /* ClothCanvasViewGenerator.m */,
+				5313922119A0746F003D0F78 /* CanvasViewController.h */,
+				5313922219A0746F003D0F78 /* CanvasViewController.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
 		531CCDAE199F638500F5E78B = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +169,25 @@
 				531CCDE4199F872600F5E78B /* Stroke.h */,
 				531CCDE5199F872600F5E78B /* Stroke.m */,
 				531CCDE0199F831600F5E78B /* Mark.h */,
+				5313923319A0A1E4003D0F78 /* Factory */,
+				5313922419A085F2003D0F78 /* BrandingFactory.h */,
+				5313922519A085F2003D0F78 /* BrandingFactory.m */,
+				5313922719A0864D003D0F78 /* AcmeBrandingFactory.h */,
+				5313922819A0864D003D0F78 /* AcmeBrandingFactory.m */,
+				5313922A19A0A0AA003D0F78 /* AcmeView.h */,
+				5313922B19A0A0AA003D0F78 /* AcmeView.m */,
+				5313922D19A0A0BA003D0F78 /* AcmeMainButton.h */,
+				5313922E19A0A0BA003D0F78 /* AcmeMainButton.m */,
+				5313923019A0A0C9003D0F78 /* AcmeToolbar.h */,
+				5313923119A0A0C9003D0F78 /* AcmeToolbar.m */,
+				5313923D19A0A237003D0F78 /* SierraBrandingFactory.h */,
+				5313923E19A0A237003D0F78 /* SierraBrandingFactory.m */,
+				5313923719A0A207003D0F78 /* SierraMainButton.h */,
+				5313923819A0A207003D0F78 /* SierraMainButton.m */,
+				5313923A19A0A21A003D0F78 /* SierraToolbar.h */,
+				5313923B19A0A21A003D0F78 /* SierraToolbar.m */,
+				5313923419A0A1FC003D0F78 /* SierraView.h */,
+				5313923519A0A1FC003D0F78 /* SierraView.m */,
 				531CCDC4199F638500F5E78B /* Main.storyboard */,
 				531CCDC7199F638500F5E78B /* Images.xcassets */,
 				531CCDBA199F638500F5E78B /* Supporting Files */,
@@ -232,12 +320,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5313923919A0A207003D0F78 /* SierraMainButton.m in Sources */,
+				5313921A19A06F9E003D0F78 /* CanvasViewGenerator.m in Sources */,
+				5313923219A0A0C9003D0F78 /* AcmeToolbar.m in Sources */,
+				5313923F19A0A237003D0F78 /* SierraBrandingFactory.m in Sources */,
+				5313922619A085F2003D0F78 /* BrandingFactory.m in Sources */,
+				5313922019A071C1003D0F78 /* ClothCanvasViewGenerator.m in Sources */,
 				531CCDC3199F638500F5E78B /* ViewController.m in Sources */,
+				5313922F19A0A0BA003D0F78 /* AcmeMainButton.m in Sources */,
+				5313922319A0746F003D0F78 /* CanvasViewController.m in Sources */,
 				531CCDDF199F81C900F5E78B /* Vertex.m in Sources */,
+				5313922C19A0A0AA003D0F78 /* AcmeView.m in Sources */,
+				5313921719A06F6B003D0F78 /* ClothCanvasView.m in Sources */,
 				531CCDC0199F638500F5E78B /* AppDelegate.m in Sources */,
+				5313921D19A0707A003D0F78 /* PaperCanvasViewGenerator.m in Sources */,
+				5313921419A06EE2003D0F78 /* PaperCanvasView.m in Sources */,
 				531CCDE3199F859D00F5E78B /* Dot.m in Sources */,
+				5313922919A0864D003D0F78 /* AcmeBrandingFactory.m in Sources */,
+				5313923C19A0A21A003D0F78 /* SierraToolbar.m in Sources */,
+				5313921119A06ED4003D0F78 /* CanvasView.m in Sources */,
 				531CCDBD199F638500F5E78B /* main.m in Sources */,
 				531CCDE6199F872600F5E78B /* Stroke.m in Sources */,
+				5313923619A0A1FC003D0F78 /* SierraView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
